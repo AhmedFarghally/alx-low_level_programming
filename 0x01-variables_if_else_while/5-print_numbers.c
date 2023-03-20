@@ -10,12 +10,12 @@ int main(void)
 {
 	/*Variables Declaration*/
 	int n;
-	/**/
+	/*Assignment*/
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	for (n = 0; n <= 9; n++)
-		printf("%d", n);
+		printf("%i", n);
 	printf("\n");
 	return (0);
 }
