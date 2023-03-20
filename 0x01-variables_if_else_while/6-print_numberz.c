@@ -15,6 +15,6 @@ int main(void)
 	/* your code goes there */
 	for (n =48; n <= 57; n++)
 		putchar((char) n);
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
