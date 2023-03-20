@@ -8,12 +8,13 @@
  */
 int main(void)
 {
-	char  n;
+	char n;
 	/**/
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	putchar(n);
+	/* our code goes there */
+	for (n = 'a'; n <= 'z'; n++)
+		putchar(n);
 	printf("\n");
 	return (0);
 }
