@@ -18,6 +18,6 @@ int main(void)
 		putchar(n);
 	for (m = 'A'; m <= 'Z'; m++)
 		putchar(m);
-
+	printf("\n");
 	return (0);
 }
