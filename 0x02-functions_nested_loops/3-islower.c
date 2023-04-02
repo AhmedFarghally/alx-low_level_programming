@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <ctype.h>
 /**
  * _islower - Returns 1 if c is lowercase, Returns 0 otherwise
  * islower - check the char
