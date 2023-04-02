@@ -12,6 +12,9 @@ int _islower(int c)
 {
 	int r;
 	/**/
-	r = islower(c);
+	if (islower(c) > 0)
+		r = 1;
+	else
+		r = 0;
 	return (r);
 }
